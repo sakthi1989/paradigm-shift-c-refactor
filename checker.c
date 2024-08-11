@@ -10,8 +10,7 @@ Language language = ENGLISH;
 
 void PrintMessage(const char* msg_en, const char* msg_de)
 {
-    switch (language) 
-    {
+    switch (language) {
         case 0:
             printf("EN: %s\n", msg_en);
             break;
